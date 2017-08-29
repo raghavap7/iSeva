@@ -660,6 +660,10 @@ i.dolor{
 .rag-lay-partners {
   padding: 1em 0;
   background: url(../images/bg-22.jpg)repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .rag-lay-partners h3{
 	text-align: center;
@@ -2300,7 +2304,11 @@ ul.career-start li a i {
 /*-- support content --*/
 .ragl-support,.agileits_rag-lay_contact{
 	padding:2em 0px;
-	    background: url(../images/bg-2.jpg)repeat;
+	background: url(../images/bg-2.jpg)repeat;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .rag_agile_support_right{
 	text-align:center;
