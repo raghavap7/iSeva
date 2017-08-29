@@ -2295,6 +2295,10 @@ ul.career-start li a i {
     padding: 20px 0;
 	background: url(../images/bg-1.jpg)repeat;
 	margin-top: 50px;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .rag-lay-content {
