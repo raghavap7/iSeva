@@ -649,7 +649,7 @@ i.dolor{
 .content-bottom {
   	padding: 5em 0;
 }
-.modal-content{background:#deb887;}
+.modal-content{background: #fff8dc;}
 /*--//content-bottom--*/
 /*-- Partners --*/
 .rag-lay-partners ul li{
@@ -1537,7 +1537,7 @@ p.privacy-para {
 /*--//privacy--*/
 /*--login--*/
 .modal-dialog {
-    margin: 10em auto 0;
+    margin: 4em auto 0;
 }
 .modal-header {
     padding: 25px;
@@ -2302,9 +2302,14 @@ ul.career-start li a i {
 }
 
 .rag-lay-content {
-    padding:60px 0;
+    padding:30px 0;
+	    background: url(../images/bg-1.jpg)repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
+.rag-lay-content2{padding:20px;    background: linear-gradient(0deg, #F9E, #F9C 40%, #FB1);}
 /*-- support content --*/
 .ragl-support,.agileits_rag-lay_contact{
 	padding:2em 0px;
@@ -2636,6 +2641,7 @@ h3.rag-head {
     color: #1e1e1e;
     margin: 16px 0 0;
     letter-spacing: 1px;
+	font-weight: bold;
 }
 /*-- //help --*/
 /*-- faq-page --*/
@@ -2646,17 +2652,22 @@ ul.faq {
     margin-top: 2em;
     list-style-type: decimal;
     padding-left: 0.5em;
+	color:#fff;
 }
 .faq-ragagile .faq > li > a { 
-    color: #005a56;
+    color:#fff;
     font-size: 17px;
     letter-spacing: 0.5px;
+	font-weight: 800;
 } 
 li.subitem1 p {
     line-height: 25px;
     font-size: 14px;
     letter-spacing: 0.5px;
     color: #000;
+	text-align: justify;
+    padding-right: 62px;
+	font-weight:800;
 }
 .faq-ragagile .faq li li.subitem1 {
     display: block;
@@ -3461,7 +3472,7 @@ h3.agileits-icons-title {
     letter-spacing: 1px;
 }
 .terms p {
-    color: #777;
+    color: #FFF;
     font-size: 15px;
     font-weight: 300;
     line-height: 30px;
@@ -3469,7 +3480,7 @@ h3.agileits-icons-title {
     padding-left: 20px;
 }
 .terms ol li {
-    color: #777;
+    color:#FFF;
     font-size: 15px;
     font-weight: 300;
     line-height: 26px;
@@ -3569,9 +3580,10 @@ ul.sub-child li a {
 .agileits-support ul li {
     margin: 20px 0;
     margin-left: 15px;
-    color: #858585;
+    color: #000;
     font-size: 14px;
     letter-spacing: 1px;
+    font-weight: 800;
 }
 .agileits-support ul li a {
     font-size: 14px;
@@ -4216,13 +4228,13 @@ p.loc {
     margin: 0px 0 10px 0px;
 }
 p.para1{
-	color:#767676;
+	color:#fff;
     font-size: 0.9em;
     line-height: 2.2em;
 }
 address {
 	    width: 100%;
-    color: #767676;
+    color: #fff;
     font-size: 0.9em;
     line-height: 2em;
 }
@@ -4251,7 +4263,8 @@ address  a:hover {
 abbr[title], abbr[data-original-title] {
     cursor: help;
     border-bottom: none!important;
-    color: #C0C0C0;
+        color: #000;
+    font-weight: bold;
 }
 .map iframe {
 	width: 100%;
@@ -4366,7 +4379,7 @@ abbr[title], abbr[data-original-title] {
 	}
 	.modal-dialog {
 		width: 85%;
-		margin: 7em auto 0;
+		margin: 1em auto 0;
 	}
 	.mobile-rchge a {
 		width: 42%;
@@ -4673,7 +4686,7 @@ abbr[title], abbr[data-original-title] {
 	}
 	.modal-dialog {
 		width: 90%;
-		margin: 5em auto 0;
+		margin: 1em auto 0;
 	}
 	.feed-back h3 {
 		font-size: 20px;
@@ -5318,6 +5331,7 @@ abbr[title], abbr[data-original-title] {
 	}
 	.terms p {
 		font-size: 13.5px;
+		color: #fff !important;
 	}
 	.terms ol li {
 		font-size: 14px;
