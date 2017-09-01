@@ -2309,7 +2309,7 @@ ul.career-start li a i {
     -o-background-size: cover;
     background-size: cover;
 }
-.rag-lay-content2{padding:20px;    background: linear-gradient(0deg, #F9E, #F9C 40%, #FB1);}
+.rag-lay-content2{padding:20px;background: rgba(0, 0, 0, 0.61);}
 /*-- support content --*/
 .ragl-support,.agileits_rag-lay_contact{
 	padding:2em 0px;
